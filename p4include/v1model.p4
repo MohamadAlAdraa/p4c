@@ -86,6 +86,12 @@ struct standard_metadata_t {
     bit<32> enq_timestamp;
     @alias("queueing_metadata.enq_qdepth")
     bit<19> enq_qdepth;
+    @alias("queueing_metadata.enq_qdepth_0")
+    bit<19> enq_qdepth_0;
+    @alias("queueing_metadata.enq_qdepth_1")
+    bit<19> enq_qdepth_1;
+    @alias("queueing_metadata.enq_qdepth_2")
+    bit<19> enq_qdepth_2;
     @alias("queueing_metadata.deq_timedelta")
     bit<32> deq_timedelta;
     /// queue depth at the packet dequeue time.

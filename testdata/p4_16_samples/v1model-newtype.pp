@@ -54,6 +54,9 @@ struct standard_metadata_t {
     // queueing metadata
     @alias("queueing_metadata.enq_timestamp") bit<32> enq_timestamp;
     @alias("queueing_metadata.enq_qdepth")    bit<19> enq_qdepth;
+    @alias("queueing_metadata.enq_qdepth_0")  bit<19> enq_qdepth_0;
+    @alias("queueing_metadata.enq_qdepth_1")  bit<19> enq_qdepth_1;
+    @alias("queueing_metadata.enq_qdepth_2")  bit<19> enq_qdepth_2;
     @alias("queueing_metadata.deq_timedelta") bit<32> deq_timedelta;
     @alias("queueing_metadata.deq_qdepth")    bit<19> deq_qdepth;
     // intrinsic metadata
