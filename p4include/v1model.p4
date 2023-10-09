@@ -92,6 +92,42 @@ struct standard_metadata_t {
     bit<19> enq_qdepth_1;
     @alias("queueing_metadata.enq_qdepth_2")
     bit<19> enq_qdepth_2;
+    @alias("queueing_metadata.enq_qdepth_3")
+    bit<19> enq_qdepth_3;
+    @alias("queueing_metadata.enq_qdepth_4")
+    bit<19> enq_qdepth_4;
+    @alias("queueing_metadata.enq_qdepth_5")
+    bit<19> enq_qdepth_5;
+    @alias("queueing_metadata.enq_qdepth_6")
+    bit<19> enq_qdepth_6;
+    @alias("queueing_metadata.enq_qdepth_7")
+    bit<19> enq_qdepth_7;
+    @alias("queueing_metadata.enq_qdepth_8")
+    bit<19> enq_qdepth_8;
+    @alias("queueing_metadata.enq_qdepth_9")
+    bit<19> enq_qdepth_9;
+    @alias("queueing_metadata.enq_qdepth_10")
+    bit<19> enq_qdepth_10;
+    @alias("queueing_metadata.enq_qdepth_11")
+    bit<19> enq_qdepth_11;
+    @alias("queueing_metadata.enq_qdepth_12")
+    bit<19> enq_qdepth_12;
+    @alias("queueing_metadata.enq_qdepth_13")
+    bit<19> enq_qdepth_13;
+    @alias("queueing_metadata.enq_qdepth_14")
+    bit<19> enq_qdepth_14;
+    @alias("queueing_metadata.enq_qdepth_15")
+    bit<19> enq_qdepth_15;
+    @alias("queueing_metadata.enq_qdepth_16")
+    bit<19> enq_qdepth_16;
+    @alias("queueing_metadata.enq_qdepth_17")
+    bit<19> enq_qdepth_17;
+    @alias("queueing_metadata.enq_qdepth_18")
+    bit<19> enq_qdepth_18;
+    @alias("queueing_metadata.enq_qdepth_19")
+    bit<19> enq_qdepth_19;
+    @alias("queueing_metadata.enq_qdepth_20")
+    bit<19> enq_qdepth_20;
     @alias("queueing_metadata.deq_timedelta")
     bit<32> deq_timedelta;
     /// queue depth at the packet dequeue time.
